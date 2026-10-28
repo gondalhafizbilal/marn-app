@@ -1,0 +1,10 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile-production.xcconfig"
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_production.dart
+APP_BUNDLE_IDENTIFIER=com.marn.app
+APP_DISPLAY_NAME=Marn
+APP_FLAVOR=production
+GOOGLE_MAPS_API_KEY=
